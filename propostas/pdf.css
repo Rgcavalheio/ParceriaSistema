@@ -1,0 +1,70 @@
+body{font-family:Arial;background:url(timbrada.jpg) no-repeat;
+	background-image-resolution:300dpi;background-image-resize:6;}
+
+	b{
+		color:#5f1514;
+	}
+
+	.pt1{
+		margin-left: 10px;
+	}
+	.pt2{
+		margin-left: 20px;
+		text-align: center;	
+		letter-spacing:2px;
+		color:#5f1514;
+	}
+	.pt21{
+		
+		margin-left: 20px;
+		text-align: center;	
+		letter-spacing:2px;
+	}
+	.pt22{
+		font-style: italic;
+		margin-left: 20px;
+		text-align: center;	
+		
+	}
+	.pt3{
+		margin-left: 20px;				
+		text-align: center;	
+		font-weight:bold;
+
+	}
+	.pt4{
+		margin-left: 20px;
+		line-height: 2;
+	}
+	.pt5{
+		color:red;
+		font-weight: bold;
+		text-align: center;	
+
+	}
+	.pt6{
+		font-weight:bold;
+		margin-left: 10px;
+		text-align: center;	
+	}
+	.pt7{
+		font-weight:bold;
+		text-align: center;	
+		line-height: 2;
+	}
+
+	.lateral{
+		position:absolute;
+		top:525px;
+		left:770px;
+	}
+	.red{
+		color:#5f1514;
+	}
+	#centro {
+		
+		
+		position:absolute;
+
+		left:36%;
+	}

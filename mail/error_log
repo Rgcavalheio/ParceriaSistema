@@ -1,0 +1,4 @@
+[13-Jun-2017 17:41:53 America/Sao_Paulo] PHP Fatal error:  Call to undefined function check_acesso() in /home/parce780/public_html/crm/mail/enviar.php on line 3
+[13-Jun-2017 17:45:20 America/Sao_Paulo] PHP Fatal error:  Call to undefined function check_acesso() in /home/parce780/public_html/crm/mail/functions.php on line 4
+[13-Jun-2017 17:46:29 America/Sao_Paulo] PHP Fatal error:  Call to undefined function check_acesso() in /home/parce780/public_html/crm/mail/functions.php on line 4
+[13-Jun-2017 17:55:12 America/Sao_Paulo] PHP Fatal error:  Call to undefined function check_acesso() in /home/parce780/public_html/crm/mail/functions.php on line 4
