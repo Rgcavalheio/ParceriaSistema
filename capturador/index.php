@@ -61,7 +61,7 @@ include(HEADER_TEMPLATE);
 <form action="capturador_.php" method="post">
 	<div class="row">
 		<div class="col-lg-6">
-			<h3>GuiaMais</h3>
+			<h3>Brasil A-Z</h3>
 			<b>Link:</b>
 			<input name="link" type="text" style="width:800px" value=""/>
 				 <input type="hidden" name="status" value="1">
