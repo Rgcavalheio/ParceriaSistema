@@ -58,7 +58,7 @@ include(HEADER_TEMPLATE);
 	</div>
 </form>
 
-<form action="capturador_.php" method="post">
+<form action="capturador_azbrasil.php" method="post">
 	<div class="row">
 		<div class="col-lg-6">
 			<h3>Brasil A-Z</h3>

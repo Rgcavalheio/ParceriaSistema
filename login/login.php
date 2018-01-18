@@ -1,5 +1,4 @@
 <?php
-require_once("../config.php");
 // Verifica se houve POST e se o usuário ou a senha é(são) vazio(s)
 if (!empty($_POST) AND (empty($_POST['usuario']) OR empty($_POST['senha']))) {
   header("Location: index.php"); exit;
@@ -7,11 +6,9 @@ if (!empty($_POST) AND (empty($_POST['usuario']) OR empty($_POST['senha']))) {
 
 
 // Tenta se conectar ao servidor MySQL
-$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD) or trigger_error(mysqli_error());
-
-
+$conn = mysqli_connect('mysql.parceriaafsistema.com.br', 'parceriaafsist', '3791645j') or trigger_error(mysqli_error());
 // Tenta se conectar a um banco de dados MySQL
-mysqli_select_db($conn,DB_NAME) or trigger_error(mysqli_error());
+mysqli_select_db($conn,'parceriaafsist') or trigger_error(mysqli_error());
 $usuario = mysqli_real_escape_string($conn,$_POST['usuario']);
 $senha = mysqli_real_escape_string($conn,$_POST['senha']);
 
