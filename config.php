@@ -5,13 +5,13 @@ date_default_timezone_set('America/Sao_Paulo');
 
 
 /** O nome do banco de dados*/
-define('DB_NAME', 'parceriaafsist');
+define('DB_NAME', '-');
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'parceriaaf_add1');
+define('DB_USER', '-');
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', '3791645j');
+define('DB_PASSWORD', '-');
 /** nome do host do MySQL */
-define('DB_HOST', 'mysql.parceriaafsistema.com.br');
+define('DB_HOST', '-');
 /** caminho absoluto para a pasta do sistema **/
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
